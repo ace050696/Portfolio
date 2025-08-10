@@ -10,8 +10,8 @@ import Footer from "@/components/sections/Footer";
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
-  title: "Krishnakumar",
-  description: "Personal portfolio of Krishnakumar",
+  title: "Daniel",
+  description: "Personal portfolio of Daniel",
 };
 
 const navItems = [
@@ -51,20 +51,20 @@ export default function RootLayout({
           sizes="32x32"
           href="./favicon-32x32.png"
         />
-        <meta property="og:title" content="Krishnakumar's Portfolio" />
+        <meta property="og:title" content="Daniel's Portfolio" />
         <meta
           property="og:description"
           content="Data analyst with a passion for web development and machine learning. Transforming complex data into actionable insights and building innovative web solutions."
         />
-        <meta property="og:url" content="https://krishnakumar.dev" />
+        <meta property="og:url" content="https://Daniel.dev" />
         <meta
           property="og:image"
-          content="https://krishnakumar.dev/pics/web_screenshot.png"
+          content="https://Daniel.dev/pics/web_screenshot.png"
         />
         <script dangerouslySetInnerHTML={{
           __html: `
             if (window.location.href === "https://krishnavalliappan.github.io/portfolio-website/") {
-              window.location.replace("https://www.krishnakumar.dev");
+              window.location.replace("https://www.Daniel.dev");
             }
           `
         }} />

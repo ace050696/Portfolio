@@ -23,7 +23,7 @@ export const projects: Project[] = [
   description: "A single-page application portfolio website built using Next.js, TailwindCSS, and shadcn/ui components.",
   icon: FaReact,
   technologies: ["Next.js", "React", "TypeScript", "TailwindCSS", "shadcn/ui"],
-  githubLink: "https://github.com/krishnavalliappan/portfolio",
+  githubLink: "https://github.com/ace050696/Next.js-Portfolio-Website",
   skills: [
     {name: "Frontend Development"},
     { name: "UI/UX Design"},
@@ -37,7 +37,7 @@ export const projects: Project[] = [
   description: "A comprehensive project that automates LinkedIn job searches, scrapes job details, analyzes job descriptions using GPT, and generates tailored resumes and cover letters.",
   icon: FaLinkedin,
   technologies: ["Python", "Selenium", "BeautifulSoup", "pandas", "GPT", "DocX"],
-  githubLink: "https://github.com/krishnavalliappan/resume",
+  githubLink: "https://github.com/ace050696/LinkedIn-Job-Search-Automation",
   skills: [
     { name: "Web Scraping"},
     { name: "Data Analysis"},
@@ -52,7 +52,7 @@ export const projects: Project[] = [
   description: "A Python-based application that enables two-way synchronization between TickTick tasks and Notion databases, allowing seamless task management across both platforms.",
   icon: FaSyncAlt,
   technologies: ["Python", "TickTick API", "Notion API", "aiohttp", "asyncio"],
-  githubLink: "https://github.com/krishnavalliappan/TicktickNotionTwoWaySync",
+  githubLink: "https://github.com/ace050696/TickTick-Notion-Two-Way-Sync",
   skills: [
     { name: "API Integration"},
     { name: "Asynchronous Programming"},

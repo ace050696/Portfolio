@@ -26,23 +26,15 @@ const AboutMe: React.FC = () => {
           </CardHeader>
           <CardContent className="text-sm sm:text-base text-foreground space-y-4">
             <p>
-              👋 Hello there! I&apos;m Krishnakumar, a Data Analyst with a knack for decoding complicated data and spinning it into a meaningful narrative. My fascination for math was nurtured from childhood, all thanks to my math-genius mother.
+              👋 Hello there! I am a Senior Full-Stack Software Developer with 8+ years of experience creating fast, reliable, and easy-to-use web and mobile applications. I have worked in industries like SaaS, fintech, e-commerce, and healthcare, using tools such as React, Next.js, Vue.js, Node.js, Express, Python/Django, and Java/Spring Boot.
             </p>
             <p>
               <FaCode className="inline-block mr-2" /> 
-              Post my two-year stint as a data analyst, I decided to plunge into the world of academia to pursue my master&apos;s. Here, I found myself teaching Transform Calculus, which was quite an eye-opener. I realized that programming and math weren&apos;t just two separate entities, they were two sides of the same coin. This understanding ignited my interest in data analysis and machine learning.
+              I design and build systems that are scalable (can grow easily), secure, and efficient. I work with databases like PostgreSQL, MySQL, MongoDB, and Redis, and I use AWS, Azure, and Google Cloud to run applications on the cloud. I follow modern ways of working like Agile/Scrum, and I set up DevOps pipelines with Docker, Kubernetes, CI/CD automation, and testing tools like Jest and Cypress to deliver high-quality code quickly.
             </p>
             <p>
-              When I&apos;m not crunching numbers or coding, you might find me:
-            </p>
-            <ul className="list-disc pl-5 space-y-2">
-              <li><FaPizzaSlice className="inline-block mr-2" /> On a never-ending quest for the perfect pizza recipe</li>
-              <li><FaHiking className="inline-block mr-2" /> Exploring new hiking trails (and probably getting lost)</li>
-              <li><FaPuzzlePiece className="inline-block mr-2" /> Solving puzzles that make my brain do backflips</li>
-            </ul>
-            <p>
-              At present, I&apos;m eagerly diving into the deep end of machine learning and dabbling in web development as a bit of a side hobby. The intersection of data science and technology holds endless possibilities, and I can&apos;t wait to explore them all. I&apos;m a firm believer in lifelong learning and self-improvement, so I seize every opportunity to learn, regardless of the circumstances. And honestly, making life a tad simpler with these skills - now, isn&apos;t that a fun thought?
-            </p>
+              In the future, I aim to use new technologies such as AI and machine learning to build smarter applications, help teams work better, and create software that makes a real difference for users and businesses.
+            </p>  
           </CardContent>
         </Card>
       </motion.div>

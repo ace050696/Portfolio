@@ -1,5 +1,5 @@
 // data/workExperience.ts
-import { FaBriefcase, FaPython, FaDatabase, FaChartBar, FaAws, FaReact, FaChalkboardTeacher, } from 'react-icons/fa';
+import { FaBriefcase, FaPython, FaDatabase, FaChartBar, FaAws, FaReact, FaChalkboardTeacher, FaHtml5, FaJava, FaCss3, FaAngular, } from 'react-icons/fa';
 import { SiPowerbi } from 'react-icons/si';
 import { PiMathOperationsFill } from "react-icons/pi";
 import React from 'react';
@@ -21,59 +21,60 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
 {
-    company: "Concordia University",
-    position: "TA - Transform Calculus and PDE",
-    duration: "Sep 2023 - Dec 2023",
-    year: 2023,
+    company: "Indra Sistemas S.A.",
+    position: "Senior Full-Stack Developer",
+    duration: "01/2021 - Present",
+    year: 2025,
     description: [
-      "Crafted Python simulations to visualize (Fourier Series, Laplace Transforms, PDEs) solutions, enhancing student understanding of the link between theory and real-world applications.",
-      "Facilitated collaborative learning by leading group discussions and encouraging peer support, building a positive and productive learning environment.",
-      "Received excellent student feedback, contributing to a 20% increase in satisfaction ratings compared to previous terms."
+      "Spearheaded the development of a feature-rich analytics platform, integrating HTML5, CSS3, and React, boosting customer insights by 35%",
+      "Orchestrated a seamless migration of key applications to AWS, resulting in a 25% reduction in hosting costs and a 15% improvement in application availability",
+      "Collaborated closely with cross-functional teams to re-engineer a legacy system using Java and Spring Boot, improving system efficiency by 40%",
+      "Championed CI/CD processes using Jenkins and Docker, reducing deployment times by 50% and facilitating consistent, daily production updates",
     ],
     skills: [
+      { name: "HTML", icon: FaHtml5 },
+      { name: "CSS", icon: FaCss3 },
+      { name: "React", icon: FaReact },
+      { name: "Java", icon: FaJava },
+      { name: "Angular", icon: FaAngular },
       { name: "Python", icon: FaPython },
-      { name: "Teaching", icon: FaChalkboardTeacher },
-      { name: "Mathematics", icon: PiMathOperationsFill },
+      { name: "AWS", icon: FaAws }
     ],
     logo: "/logos/concordia-university.png" // Add the path to the Concordia University logo
   },
   {
-    company: "IA Flow Elements",
-    position: "Associate Data Analyst",
-    duration: "April 2020 – July 2022",
+    company: "Sugerendo",
+    position: "Software Engineer II",
+    duration: "09/2018 - 12/2020",
     year: 2020,
     description: [
-      "Engineered a predictive model using machine learning algorithms to forecast sales trends, enhancing decision-making accuracy and contributing to a 15% uplift in sales projections accuracy.",
-      "Boosted data processing efficiency by 40% via custom Python scripts for ETL automation, ensuring precise data handling from extraction to in-depth analysis, integrating with AWS cloud.",
-      "Led the team to optimize data processing workflows by 30% by migrating to AWS, enhancing both data handling efficiency and system scalability while also ensuring data accuracy.",
-      "Developed a Python-based application with a Tkinter GUI for the marketing team to add and track quotes, integrating with Power BI to visually monitor progress and improve quote management efficiency.",
-      "Established efficiency metrics and automated Excel dashboards using VBA scripting, which boosted the productivity and efficiency of designers and CAD technicians by over 25%.",
-      "Enhanced business process efficiency and decision support by collaborating with teams to optimize data workflows and designing tailored Power BI dashboards and KPI reports, resulting in improved strategic planning across the organization."
+      "Developed an e-commerce web application using React and TypeScript that handled over 10,000 transactions monthly",
+      "Enhanced user authentication and security by implementing OAuth and JWT, securing user data across platforms",
+      "Optimized SQL and NoSQL database queries, reducing load times by 20% and enhancing user experience",
+      "Actively participated in bi-weekly agile sprint planning, contributing to a 15% increase in team velocity",
+      "Mentored three junior developers in test-driven development and pair programming practices, improving team productivity by 10%"
     ],
     skills: [
       { name: "Python", icon: FaPython },
-      { name: "SQL", icon: FaDatabase },
-      { name: "Power BI", icon: SiPowerbi },
-      { name: "AWS", icon: FaAws },
-      { name: "Data Visualization", icon: FaChartBar },
+      { name: "SQL", icon: FaDatabase }
     ],
     logo: "/logos/ia-flow.png"
   },
   {
-    company: "IA Flow Elements",
-    position: "CAD Designer",
-    duration: "June 2019 – March 2020",
-    year: 2019,
+    company: "Indra",
+    position: "Junior Software Developer",
+    duration: "09/2017 - 08/2018",
+    year: 2018,
     description: [
-      "Designed flow elements according to provided specifications using RW Miller software, improving product performance in the oil & gas sector.",
-      "Managed technical quotations, effectively converting quotes to orders, demonstrating strong business communication skills.",
-      "Handled client-centric reporting and documentation, ensuring tailored solutions and high customer satisfaction."
+      "Implemented new features for a cloud-based SaaS product, benefiting over 1,000 enterprise clients",
+      "Reduced application load time by 25% by re-factoring inefficient code and optimizing front-end assets",
+      "Initiated a corporate-wide code review practice, which improved code qualityby 30%",
+      "Contributed to the creation of a customer support chatbot using AI technologies, enhancing customer service response times by 40%"
     ],
     skills: [
-      { name: "CAD", icon: FaReact },
       { name: "Technical Documentation", icon: FaChartBar },
-      { name: "Client Communication", icon: FaBriefcase },
+      { name: "Client Communication", icon: FaBriefcase }
     ],
-    logo: "/logos/ia-flow.png"
+    logo: "/logos/junior.png"
   }
 ];
