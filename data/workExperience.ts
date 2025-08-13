@@ -21,9 +21,9 @@ export interface WorkExperience {
 
 export const workExperiences: WorkExperience[] = [
 {
-    company: "Indra Sistemas S.A.",
+    company: "Sugerendo",
     position: "Senior Full-Stack Developer",
-    duration: "01/2021 - Present",
+    duration: "12/2021 - Present ",
     year: 2025,
     description: [
       "Spearheaded the development of a feature-rich analytics platform, integrating HTML5, CSS3, and React, boosting customer insights by 35%",
@@ -43,10 +43,10 @@ export const workExperiences: WorkExperience[] = [
     logo: "/logos/concordia-university.png" // Add the path to the Concordia University logo
   },
   {
-    company: "Sugerendo",
+    company: "Sisteplant",
     position: "Software Engineer II",
-    duration: "09/2018 - 12/2020",
-    year: 2020,
+    duration: "11/2020 - 12/2021          ",
+    year: 2021,
     description: [
       "Developed an e-commerce web application using React and TypeScript that handled over 10,000 transactions monthly",
       "Enhanced user authentication and security by implementing OAuth and JWT, securing user data across platforms",
@@ -61,10 +61,10 @@ export const workExperiences: WorkExperience[] = [
     logo: "/logos/ia-flow.png"
   },
   {
-    company: "Indra",
+    company: "Baldarian",
     position: "Junior Software Developer",
-    duration: "09/2017 - 08/2018",
-    year: 2018,
+    duration: "09/2020 - 11/2020 ",
+    year: 2020,
     description: [
       "Implemented new features for a cloud-based SaaS product, benefiting over 1,000 enterprise clients",
       "Reduced application load time by 25% by re-factoring inefficient code and optimizing front-end assets",
